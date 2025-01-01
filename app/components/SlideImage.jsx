@@ -15,9 +15,9 @@ export default function SlideImage() {
             }}
             pagination={{ clickable: true, dynamicBullets: true }}
         >
-            <SwiperSlide><img src="./slide/1.png" alt="1" /></SwiperSlide>
-            <SwiperSlide><img src="./slide/2.png" alt="2" /></SwiperSlide>
-            <SwiperSlide><img src="./slide/ม้าม่วง.png" alt="3" /></SwiperSlide>
+            <SwiperSlide><img src="./slide/1.png" alt="1" loading="lazy" /></SwiperSlide>
+            <SwiperSlide><img src="./slide/2.png" alt="2" loading="lazy" /></SwiperSlide>
+            <SwiperSlide><img src="./slide/ม้าม่วง.png" alt="3" loading="lazy" /></SwiperSlide>
         </Swiper>
     </div>
   )
